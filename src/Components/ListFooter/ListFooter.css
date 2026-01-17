@@ -1,0 +1,8 @@
+.listFooter {
+    width: 20%;
+    padding: 20px;
+    ul{
+        list-style: none;
+   
+    }
+}

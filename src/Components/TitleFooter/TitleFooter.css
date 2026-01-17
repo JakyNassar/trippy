@@ -1,0 +1,26 @@
+.titleFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    h3{
+        font-size: 2rem;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 10px;
+      li{
+   
+    font-size: 2rem;
+    cursor: pointer;
+
+      }
+   
+   
+  
+      }
+        
+
+    }

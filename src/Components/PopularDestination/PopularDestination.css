@@ -1,0 +1,36 @@
+.popularDestinations{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    &.reverse{
+        flex-direction: row-reverse;
+    }
+}
+    .txt{
+        width: 49%;
+        align-items: center;
+        line-height: 2;
+        h2{
+            margin-bottom: 10PX;
+        }
+    }
+  .images{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+   
+      img{
+     border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, .19);
+    height: 350px;
+    object-fit: cover;
+    width: 49%;
+    &:nth-child(2){
+        position: relative;
+        top: -15px;
+    }
+    }
+
+}
+
+

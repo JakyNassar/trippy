@@ -1,0 +1,11 @@
+section {
+
+ .title{
+  h2{
+    font-size: 3rem;
+  }
+ }
+    .title{
+      text-align: center;
+    }
+}
